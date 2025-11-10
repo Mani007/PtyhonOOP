@@ -1,5 +1,5 @@
 class item:
-    def __init__(self,name,price,qty): #magic method constructor
+    def __init__(self,name,price,qty=0): #magic method constructor
         print(f"An instance created for {name}") #string formatting
         self.name = name 
         self.price = price
